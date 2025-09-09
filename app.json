@@ -1,0 +1,103 @@
+{
+  "expo": {
+    "name": "School Of Breath",
+    "slug": "TheSchoolofBreath",
+    "version": "5.2",
+    "orientation": "portrait",
+    "icon": "./src/assets/splashscreen_image.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": false,
+    "development": {
+      "ios": {
+        "simulator": true
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.theschoolofbreath",
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "buildNumber": "3",
+      "infoPlist": {
+        "UISupportedInterfaceOrientations~ipad": [
+          "UIInterfaceOrientationPortrait"
+        ],
+        "UIBackgroundModes": [
+          "audio"
+        ],
+        "NSUserTrackingUsageDescription": "We use your activity data to improve your app experience and show personalized content.",
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSMicrophoneUsageDescription": "This app requires microphone access to record audio for the chatbot feature."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/splashscreen_image.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.meditatewithabhi.theschoolofbreath",
+      "googleServicesFile": "./google-services.json",
+      "softwareKeyboardLayoutMode": "pan",
+      "compileSdkVersion": 35,
+      "targetSdkVersion": 35,
+      "buildToolsVersion": "35.0.0",
+      "permissions": [
+        "WAKE_LOCK",
+        "com.google.android.gms.permission.AD_ID",
+        "RECORD_AUDIO",
+        "FOREGROUND_SERVICE",
+        "FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "POST_NOTIFICATIONS"
+      ],
+      "versionCode": 42
+    },
+    "plugins": [
+      "./withCustomAndroidManifest.js",
+      "@react-native-firebase/app",
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          },
+          "android": {
+            "compileSdkVersion": 35,
+            "targetSdkVersion": 35,
+            "buildToolsVersion": "35.0.0",
+            "versionCode": 37,
+            "versionName": "5.1"
+          }
+        }
+      ],
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./src/assets/splashscreen_image.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff",
+          "imageWidth": 300
+        }
+      ],
+      [
+        "expo-tracking-transparency",
+        {
+          "userTrackingPermission": "We use your activity data to improve your app experience and show personalized content."
+        }
+      ],
+      "expo-localization"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5e67928c-3209-4558-b5a4-65f207d56705"
+      },
+      "router": {
+        "origin": false
+      }
+    }
+  }
+}

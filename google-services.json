@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "116109207837",
+    "project_id": "sleepmusicapp-413415",
+    "storage_bucket": "sleepmusicapp-413415.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:116109207837:android:bcb697bdfb66311520d9f4",
+        "android_client_info": {
+          "package_name": "com.meditatewithabhi.theschoolofbreath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "116109207837-nhhjo9bkk5nq3ha2hbq2judfum6d33g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4MaT1XxsSLysaeLA1oH7TFiXDdrsFr2A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "116109207837-nhhjo9bkk5nq3ha2hbq2judfum6d33g5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "116109207837-593vkmimarif4bvhvqjgrp7thccqal91.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.meditatewithabhi.theschoolofbreath"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
