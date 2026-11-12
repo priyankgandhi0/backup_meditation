@@ -1,4 +1,4 @@
-# OSX
+﻿# OSX
 #
 .DS_Store
 
@@ -85,3 +85,5 @@ yarn-error.log
 
 /android
 /ios
+.env
+.env.*
